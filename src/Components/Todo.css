@@ -1,0 +1,98 @@
+.main-div{
+    width: 750px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+h1{
+    color: #2c3e50;
+}
+.child-div{
+    display: flex;
+    flex-direction: column;
+}
+.child-div .addItems{
+    width: 70%;
+    height: 60px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.child-div .addItems input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    padding-left: 20px;
+}
+.child-div .addItems button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    background: #34495e;
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    margin-right: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.child-div .addItems button::placeholder{
+    color: #2c3e50;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+ul li{
+    width: 50%;
+    height: 60px;
+    background-color: #34495e;
+    color: #ecf0f1;
+    border-radius: 40px;
+    padding-left: 40px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.showItems{
+    width: 60%;
+    height: 60px;
+    margin: 30px auto;
+}
+.showItems .eachItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    padding-right: 20px;
+    transition: 0.1s ease;
+}
+
+.add-btn:hover{
+    color: red;
+}
+
+.cross{
+    text-decoration: line-through;
+}
